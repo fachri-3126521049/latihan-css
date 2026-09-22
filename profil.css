@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.kartu {
+    width: fit-content; 
+    max-width: 600px; 
+    border: 3px solid #972828; 
+    border-radius: 10px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;  
+    align-items: center;  
+    gap: 20px;           
+    
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.foto {
+    width: 140px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;    
+    flex-shrink: 0;       
+}
+
+.konten-teks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;             
+    font: arial, sans-serif; 
+}
+
+#nama {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #972828;
+}
+
+.info, .deskripsi {
+    margin: 0;
+}
